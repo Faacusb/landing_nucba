@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none ;
+    list-style: none;
+}
+header{
+  height: 80px;
+  width: 100%;
+  background-color: #d4a373;
+}
+.logo{
+  margin-top: 5px;
+  position: relative;
+  left: 15px;
+  width: 70px;
+  border-radius: 5px;
+  height: 70px;
+}
+
+.titulo{
+  color: whitesmoke;
+  font-size: 30px;
+  margin-top: 10px
+}
+
+
+body{
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+  font-family: 'Playfair Display', serif;
+  background-color: #faedcd;
+}
+
+  .flex{
+    display: flex; 
+    gap: 10px;
+    justify-content: space-between;
+  }
+ 
+.list li{
+  padding-top: 27px;
+  position: relative;
+  right: 20px;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 20px;
+}
+  
+  
