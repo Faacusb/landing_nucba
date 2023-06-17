@@ -10,6 +10,11 @@ header{
   width: 100%;
   background-color: #d4a373;
 }
+
+.centro{
+  align-items: center;
+}
+
 .logo{
   margin-top: 5px;
   position: relative;
@@ -39,12 +44,15 @@ body{
   }
  
 .list li{
-  padding-top: 27px;
+  padding-top: 7px;
   position: relative;
   right: 20px;
   color: whitesmoke;
   font-weight: 700;
   font-size: 20px;
+  transition: background-color .5s;
 }
   
-  
+.list li:hover{
+  color: #e9edc9;
+}
