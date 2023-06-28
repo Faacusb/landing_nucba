@@ -12,7 +12,8 @@ body {
 }
 header {
   height: 80px;
-  width: 100%;
+  width: 1200px;
+  margin: 0 auto;
   background-color: #d4a373;
 }
 
