@@ -17,6 +17,7 @@ header {
   background-color: #d4a373;
 }
 
+
 .centro {
   align-items: center;
 }
@@ -92,7 +93,8 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background: #fefae0;
+  flex-wrap: wrap;
+
 }
 
 /* hero texto */
@@ -106,6 +108,8 @@ header {
   gap: 50px;
   position: relative;
   left: 25px;
+
+ 
 }
 
 .slogan h2 {
@@ -141,6 +145,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  
+  min-width: 200px;
+
 }
 .slogan-image img {
   justify-content: center;
