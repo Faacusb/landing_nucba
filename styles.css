@@ -116,17 +116,14 @@ header {
   font-size: 50px;
   font-weight: 800;
   color: #d4a373;
-  /* text-align: center; */
-  /* justify-content: center; */
+  
 }
 
 .slogan p{
   display: flex;
   color: #121220;
   font-size: 18px;
-  /* padding: 10px; */
-  /* align-items: center;
-  justify-content: center; */
+  
 }
 .contacto{
   display: flex;
