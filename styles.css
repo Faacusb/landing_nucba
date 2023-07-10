@@ -237,7 +237,71 @@ header {
   border-radius: 10px;
 
 }
-/* ==== SECTION CONTACTO */
+
+
+/* ====Section Productos=== */
+#productos{
+  margin: 0 auto;
+  width: 1200px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #ccd5ae;
+}
+.container-productos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-contain{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+.card-productos{ 
+  width: 250px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #e9edc9;
+  border-radius: 10px;
+}
+.card-productos h3{
+ width: 80%;
+}
+
+.productos-cards-img{
+  width: 200px;
+  border-radius: 5px;
+}
+.precio-producto{
+  display: flex;
+  padding-top: 10px;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card-productos p:last-child{
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* ==== SECTION CONTACTO ====*/
 #contacto{
   width: 1200px;
   height: 600px;
@@ -268,7 +332,6 @@ header {
   width: 500px;
 }
 .local1, .local2{
-  width: 240px;
   padding: 10px;
   display: flex;
   flex-direction: column;
