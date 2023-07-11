@@ -281,9 +281,17 @@ header {
   gap: 10px;
   background-color: #e9edc9;
   border-radius: 10px;
+  cursor: pointer;
+}
+.card-productos h2{
+  text-align: center;
 }
 .card-productos h3 {
   width: 80%;
+}
+
+.card-productos:hover{
+  background-color: white;
 }
 
 .productos-cards-img {
@@ -515,6 +523,10 @@ html{
     width: 100%;
     flex-wrap: wrap;
   }
+
+  .container-productos h2{
+    padding-left: 40px;
+  }
   .card-contain {
     width: 100%;
     flex-wrap: wrap;
@@ -628,11 +640,20 @@ html{
     justify-content: center;
   }
 
+  .container-productos{
+    padding-left: 20px;
+  }
+
   /* <====SECTION CONTACTO=======> */
 
   #contacto {
     padding-top: 10px;
   }
+
+  #contacto h2{
+    width: 50%;
+  }
+
   .container-contacto {
     width: 95%;
     flex-direction: column;
@@ -646,5 +667,25 @@ html{
 
   .footer {
     width: 100%;
+  }
+
+  .footer h2{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .footer-list ul {
+    padding-left: 10px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+
+  
+  .footer a{
+    font-size: 10px;
   }
 }
