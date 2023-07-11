@@ -51,6 +51,7 @@ header {
   flex-direction: row;
   /* gap: 10px; */
   align-items: center;
+  justify-content:center;
 }
 
 .list ul {
@@ -401,6 +402,8 @@ footer p {
   .header {
     width: 100%;
   }
+  /* #menu-toggle, */
+
 
   .logo {
     height: 70%;
@@ -415,13 +418,46 @@ footer p {
 
   /*<=======================NAVBARRR=========> */
 
-  .navbar-list {
+  .navbar {
     gap: 5%;
+    
+  }
+.menu-label {
+  display:flex;
+  cursor: pointer;
+  order: 2;
+}
+
+.menu-label img{
+  height: 20px;
+  width: 25px;
+}
+
+  .navbar-list {
+    position: absolute;
+    top: 80px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    border: grey solid 2px;
+    border-top: 0;
+    flex-direction: column;
+    background-color: #ccd5ae;
+    border-radius: 0px 0px 15px 15px;
+    padding: 45px 30px;
+    display: none;
+
   }
 
-  .flex-list {
-    position: absolute;
+  #menu-toggle:checked + .navbar-list{
+    display: flex;
   }
+
+  .navbar-list a{
+    font-size: 18px;
+  }
+
+
   /* ======FIN NAVBAR====== */
   body {
     width: 100%;
@@ -437,6 +473,7 @@ footer p {
   #cartas,
   #productos,
   #contacto {
+    margin: 0 auto;
     height: auto;
     width: 100%;
   }
@@ -544,6 +581,12 @@ footer p {
   .header {
     width: 100%;
   }
+  .navbar-list{
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+
   #hero,
   #about,
   #cartas,
