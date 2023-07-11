@@ -282,6 +282,7 @@ header {
   background-color: #e9edc9;
   border-radius: 10px;
   cursor: pointer;
+  box-shadow: 0px 2px 5px;
 }
 .card-productos h2{
   text-align: center;
