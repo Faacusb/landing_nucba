@@ -16,7 +16,8 @@
     <title>Suprim Clothes</title>
   </head>
   <body>
-    <header class="flex centro">
+    <header class="header">
+      <!-- <header class="flex"> -->
       <img
         src="./images/e323c1a38e3341fb843e244d455584cc.png"
         alt="Logo"
@@ -24,8 +25,14 @@
       />
 
       <h1 class="titulo">Suprim Clothes</h1>
-      <nav class="flex">
-        <ul class="flex-list">
+      <nav class="navbar">
+        <!-- input y label para el menu -->
+        <label for="menu-toggle" class="menu-label">
+          <img src="./images/menu.png" alt="menu-icon" />
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+
+        <ul class="navbar-list">
           <li class="list"><a href="#hero">Inicio</a></li>
           <li class="list"><a href="#">Hombre</a></li>
 
@@ -136,7 +143,6 @@
               <p>$ 149999.-</p>
             </div>
 
-
             <div class="card-productos">
               <img
                 src="./images/buzo-mujer.jpg"
@@ -152,8 +158,6 @@
               <p>$ 22999.-</p>
             </div>
 
-
-
             <div class="card-productos">
               <img
                 src="./images/buzo-mujer-2.jpg"
@@ -164,53 +168,51 @@
                 <img src="./images/ico-new-big.png" alt="nuevo" />
                 <img src="./images/ico-enviogratis-big.png" alt="envio" />
               </div>
-              <h3>Buzo
-                Rip Curl Crew RLX Golden Hour
-                
-                </h3>
-                <p>- Mujer -</p>
-                <p>$ 26999.-</p>
+              <h3>Buzo Rip Curl Crew RLX Golden Hour</h3>
+              <p>- Mujer -</p>
+              <p>$ 26999.-</p>
             </div>
 
-
             <div class="card-productos">
-              <img src="./images/buzo-hombre.jpg" class="productos-cards-img" alt="Buzo hombre">
+              <img
+                src="./images/buzo-hombre.jpg"
+                class="productos-cards-img"
+                alt="Buzo hombre"
+              />
               <div class="precio-producto">
                 <img src="./images/ico-new-big.png" alt="nuevo" />
                 <img src="./images/ico-enviogratis-big.png" alt="envio" />
               </div>
-              <h3>Buzo
-                Vans Permanent Vacation Crew</h3>
-                <p>- Hombre -</p>
-                <p>$28900.-</p> 
-          </div>
+              <h3>Buzo Vans Permanent Vacation Crew</h3>
+              <p>- Hombre -</p>
+              <p>$28900.-</p>
             </div>
+          </div>
         </div>
       </section>
 
       <section id="contacto">
         <div class="container-contacto">
-          <div class="contacto-descripcion">
-            <h2>Vení a conocer nuestros locales</h2>
-            <div class="direcciones">
-              <div class="local1">
-                <h3>PLAZA OESTE SHOPPING</h3>
-                <p>Dirección:</p>
-                <p>
-                  Av. Brig. Gral. Juan Manuel de Rosas 658 (Local 2116 - 1º
-                  Piso) Morón
-                </p>
-                <p>Horario:</p>
-                <p>Todos los días - 10 a 22 hs.</p>
-              </div>
-              <div class="local2">
-                <h3>UNICENTER SHOPPING</h3>
-                <p>Dirección:</p>
-                <p>Paraná 3745 (nivel 2 - loc. 2007) Martínez</p>
+          <h2>Vení a conocer nuestros locales</h2>
 
-                <p>Horario:</p>
-                <p>Todos los días - 10 a 22 hs.</p>
-              </div>
+          <div class="direcciones">
+            <div class="local1">
+              <h3>PLAZA OESTE SHOPPING</h3>
+              <p>Dirección:</p>
+              <p>
+                Av. Brig. Gral. Juan Manuel de Rosas 658 (Local 2116 - 1º Piso)
+                Morón
+              </p>
+              <p>Horario:</p>
+              <p>Todos los días - 10 a 22 hs.</p>
+            </div>
+            <div class="local2">
+              <h3>UNICENTER SHOPPING</h3>
+              <p>Dirección:</p>
+              <p>Paraná 3745 (nivel 2 - loc. 2007) Martínez</p>
+
+              <p>Horario:</p>
+              <p>Todos los días - 10 a 22 hs.</p>
             </div>
           </div>
 
@@ -224,5 +226,17 @@
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer-list">
+        <ul>
+          <li><a href="#">Trabaja con nosotros</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Segui tu pedido</a></li>
+        </ul>
+      </div>
+      <h2>Suprim Clothes</h2>
+      <p>Todos los derechos reservados.</p>
+    </footer>
   </body>
 </html>
