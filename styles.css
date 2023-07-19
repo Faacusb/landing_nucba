@@ -538,6 +538,7 @@ html{
   .card-productos {
     width: 40%;
     flex-wrap: wrap;
+    background: white;
   }
 
   .productos-cards-img {
